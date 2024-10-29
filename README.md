@@ -6,7 +6,7 @@ As a creative, this is a challenge. But I'm here.
 
 I’m looking to collaborate on web design, automation, AI & all things creative! 
 
-Fun fact: I have an animated film ready..just waiting to meet the right animator.. 
+Fun fact: I have an animated film ready..with a copyright..and 70 slides with visual..and i met with producders that are foaming at the mouths...just waiting to meet the right animator.. 
 
 <!---
 localwolfpackai/localwolfpackai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
