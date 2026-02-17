@@ -1,6 +1,9 @@
-The Mess is the Method 
+<img src="./banner.svg" alt="Lupo Studios" width="100%"/>
 
-<!---
-localwolfpackai/localwolfpackai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Building tools and standards for modern web development.
+
+- [Best Practice Guidelines](https://github.com/localwolfpackai/best-practice-guidelines) — engineering standards, code conventions, and development workflows
+
+---
+
+<sub>[@Lupo Studios](https://github.com/Lupo-Studios)</sub>
