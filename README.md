@@ -1,6 +1,21 @@
-The Mess is the Method 
+<div align="center">
 
-<!---
-localwolfpackai/localwolfpackai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# hey, i'm lupo
+
+**designer / orchestrator / builder**
+
+---
+
+I'm not a traditional developer. I orchestrate — mostly with **Claude Code** and **Gemini** — to design, build, and ship things that would normally take a team.
+
+I care about design systems, clean interfaces, and making AI collaboration feel less like prompting and more like working with someone.
+
+<br>
+
+```
+the mess is the method.
+```
+
+<br>
+
+</div>
