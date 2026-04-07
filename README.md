@@ -1,21 +1,23 @@
-# Anthony Lupo
+<p align="center">
+  <img src="logo.svg" alt="Lupo Studios" width="100" height="88" />
+</p>
 
-Designer, builder, orchestrator. I make things with code, AI, and good taste.
+<h3 align="center">Anthony Lupo</h3>
 
-I run **Lupo Studios** — a one-person studio where design systems, creative tools, and client work collide. I don't write every line by hand, but I shape every detail. The craft is in the decisions.
+I'm not a traditional developer. I use **Claude Code**, **Cursor**, and other AI tools to build, ship, and organize things that would normally take a team.
+
+I run **Lupo Studios** — a one-person studio focused on creative tools, client work, and figuring out what AI-assisted development actually looks like in practice.
 
 ## Currently building
 
-- **Portfolio** — a showcase site with real personality, not a template
+- **Portfolio** — a showcase of years of AI collaboration
 - **Design system** — tokens, components, and patterns I actually use
-- **Creative tools** — utilities for visual work and AI-assisted workflows
+- **AI workflow tools** — utilities for working faster with Claude, Gemini, and others
 - **Client projects** — helping friends and small teams ship quality work
 
 ## Elsewhere
 
-- [X / Twitter](https://x.com/humanlup)
-- [Medium](https://medium.com/@anthonylupo)
-- [Instagram](https://instagram.com/_lupo)
+- [X](https://x.com/humanlup)
 
 ---
 
