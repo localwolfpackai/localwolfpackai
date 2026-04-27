@@ -1,24 +1,61 @@
 <p align="center">
-  <img src="logo.svg" alt="Lupo Studios" width="100" height="88" />
+  <img src="logo.svg" alt="Lupo Studios" width="80" height="70" />
 </p>
 
-<h3 align="center">Anthony Lupo</h3>
+<h2 align="center">Anthony Lupo</h2>
 
-I'm not a traditional developer. I use **Claude Code**, **Cursor**, and other AI tools to build, ship, and organize things that would normally take a team.
+<p align="center">
+  <a href="https://x.com/humanlup">@humanlup</a>&ensp;&middot;&ensp;<a href="https://instagram.com/_lupo">@_lupo</a>
+</p>
 
-I run **Lupo Studios** — a one-person studio focused on creative tools, client work, and figuring out what AI-assisted development actually looks like in practice.
+&nbsp;
 
-## Currently building
+10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to ship real work — web apps, brand systems, client projects, custom workflows. Not a traditional developer, but I build like one.
 
-- **Portfolio** — a showcase of years of AI collaboration
-- **Design system** — tokens, components, and patterns I actually use
-- **AI workflow tools** — utilities for working faster with Claude, Gemini, and others
-- **Client projects** — helping friends and small teams ship quality work
+&nbsp;
 
-## Elsewhere
+### Where my time goes
 
-- [X](https://x.com/humanlup)
+```text
+Claude Code   ████████████████████████████░░░░░░░░░░░░░░  55%   workhorse
+Frontend      ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18%   Next.js, TypeScript
+Gemini CLI    ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15%   second opinion
+Design        ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12%   Figma, CSS
+```
+
+&nbsp;
+
+### Toolbelt
+
+`Claude Code` &ensp; `Gemini CLI` &ensp; `TypeScript` &ensp; `Next.js` &ensp; `MCP` &ensp; `iTerm2`
+
+&nbsp;
+
+### Featured work
+
+**Claude Code Skills Library** &ensp; `ai workflow`
+<br>Custom skill system for Claude Code — reusable prompt-driven workflows for code review, design audits, performance checks, and content repurposing. Built through daily use, refined by real projects.
+
+**Lupo Studios Brand System** &ensp; `design system`
+<br>Full brand identity built through AI conversation — design tokens, OKLCH color system, typography scale, Tailwind v4 stylesheet, logo generation pipeline. One source of truth across every project.
+
+**MCP Server Integrations** &ensp; `infrastructure`
+<br>Connected Claude Code to Figma, GitHub, Google Calendar, and file systems through MCP. Practical integrations that let AI agents read real context instead of guessing.
+
+**Client Web Projects** &ensp; `freelance`
+<br>Web design and SEO work for small businesses — responsive sites, local search optimization, content strategy. Sales background means I understand what actually converts.
+
+&nbsp;
+
+### How I work
+
+| | |
+|---|---|
+| **AI-first, not AI-only** | Claude Code runs in my terminal all day. I write skills, hook into MCP servers, and build real workflows — not demos. |
+| **Document everything** | Every project has a README, a session log, and a handoff note. If I can't pick it up cold in a week, it's not done. |
+
+&nbsp;
 
 ---
 
-<sub>Lupo Studios</sub>
+<sub>**Lupo Studios** — Still Human.</sub>
