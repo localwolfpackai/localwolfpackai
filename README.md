@@ -10,7 +10,7 @@
 
 &nbsp;
 
-10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to ship real work — web apps, brand systems, client projects, custom workflows. Not a traditional developer, but I build like one.
+10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to experiment, ship real work (web apps, brand systems, client projects, custom workflows) and create to feed a passion. Not a traditional developer, but I try and build like one.
 
 &nbsp;
 
@@ -51,8 +51,8 @@ Design        ██████░░░░░░░░░░░░░░░░
 
 | | |
 |---|---|
-| **AI-first, not AI-only** | Claude Code runs in my terminal all day. I write skills, hook into MCP servers, and build real workflows — not demos. |
-| **Document everything** | Every project has a README, a session log, and a handoff note. If I can't pick it up cold in a week, it's not done. |
+| **AI-first, not AI-only** | Claude Code runs in my terminal all day. I write skills, hook into MCP servers, and build real workflows. |
+| **Document everything** | Every project has a README, a session log, tests (becuase...well, I'm not a dev!) and a handoff note. If I can't pick it up cold in a week, it's not done. |
 
 &nbsp;
 
