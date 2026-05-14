@@ -1,57 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="850" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" style="background: #fafafa;">
   <defs>
-    <!-- Dither filter: fractal noise thresholded to binary stipple -->
-    <filter id="dither" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1" seed="42" result="noise"/>
-      <feComponentTransfer in="noise" result="binary">
-        <feFuncA type="discrete" tableValues="0 1"/>
-      </feComponentTransfer>
-      <feComposite operator="in" in="SourceGraphic" in2="binary"/>
-    </filter>
-
-    <!-- Gradient controlling dither density: dissolves upward from bottom -->
-    <linearGradient id="ditherFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0f0f0f" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#0f0f0f" stop-opacity="0"/>
-      <stop offset="72%" stop-color="#0f0f0f" stop-opacity="0.06"/>
-      <stop offset="88%" stop-color="#0f0f0f" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0f0f0f" stop-opacity="0.20"/>
-    </linearGradient>
-
-    <!-- Secondary dither from top-right corner for asymmetry -->
-    <radialGradient id="cornerDither" cx="1" cy="0" r="0.6" fx="1" fy="0">
-      <stop offset="0%" stop-color="#0f0f0f" stop-opacity="0.10"/>
-      <stop offset="40%" stop-color="#0f0f0f" stop-opacity="0.03"/>
-      <stop offset="70%" stop-color="#0f0f0f" stop-opacity="0"/>
+    <style>
+      /* Clean, technical font stack */
+      .name-font { font-family: 'Switzer', 'Inter', sans-serif; font-weight: 300; font-style: italic; }
+      .studio-font { font-family: 'IBM Plex Mono', monospace; font-weight: 500; text-transform: uppercase; }
+      .wash-font { font-family: 'Geist Mono', monospace; font-weight: 800; }
+      
+      .ink { fill: #1a1a1a; }
+      .ink-line { stroke: #1a1a1a; stroke-width: 0.5; opacity: 0.15; }
+      .ghost { fill: #1a1a1a; opacity: 0.04; }
+    </style>
+    
+    <radialGradient id="wash" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.1"/>
+      <stop offset="90%" stop-color="#1a1a1a" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- Card background with subtle border -->
-  <rect width="850" height="220" rx="8" fill="#fafafa"/>
-  <rect width="850" height="220" rx="8" fill="none" stroke="#e5e5e5" stroke-width="0.75"/>
+  <!-- Background Base -->
+  <rect width="1920" height="1080" fill="#fafafa"/>
 
-  <!-- Bottom dither field -->
-  <rect x="0" y="0" width="850" height="220" rx="8" fill="url(#ditherFade)" filter="url(#dither)"/>
+  <!-- "STILL HUMAN" - Straight but Staggered (Technical Grid) -->
+  <g font-size="140" class="wash-font ghost" letter-spacing="18">
+    <text x="80" y="200">STILL HUMAN</text>
+    <text x="1100" y="360">STILL HUMAN</text>
+    <text x="350" y="520">STILL HUMAN</text>
+    <text x="1250" y="680">STILL HUMAN</text>
+    <text x="150" y="840">STILL HUMAN</text>
+    <text x="1000" y="1000">STILL HUMAN</text>
+  </g>
 
-  <!-- Corner dither accent -->
-  <rect x="0" y="0" width="850" height="220" rx="8" fill="url(#cornerDither)" filter="url(#dither)"/>
+  <!-- Depth Wash -->
+  <rect width="1920" height="1080" fill="url(#wash)"/>
 
-  <!-- Title -->
-  <text x="425" y="90"
-        text-anchor="middle"
-        font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-        font-size="34" font-weight="700" letter-spacing="10" fill="#0f0f0f">
-    LUPO STUDIOS
-  </text>
+  <!-- Corner Dotted Accents (Blueprint Style) -->
+  <g class="ink-line" stroke-dasharray="1 15">
+    <!-- Top Left -->
+    <path d="M40 40 H200 M40 40 V150" fill="none" />
+    <!-- Bottom Left -->
+    <path d="M40 1040 H200 M40 1040 V930" fill="none" />
+    <!-- Bottom Right Decor -->
+    <circle cx="1880" cy="1040" r="2" fill="#1a1a1a" stroke="none" opacity="0.2"/>
+  </g>
 
-  <!-- Thin separator line -->
-  <line x1="355" y1="108" x2="495" y2="108" stroke="#d4d4d4" stroke-width="0.75"/>
+  <!-- CENTERED BRANDING -->
+  <g transform="translate(960, 520)" text-anchor="middle">
+    
+    <!-- Geometric Logo (centered mathematically) -->
+    <g transform="translate(-250, -220)">
+       <path d="M240 0H330V350H500V440H247.06V175L102.52 440H0L240 0Z" class="ink"/>
+    </g>
 
-  <!-- Year -->
-  <text x="425" y="134"
-        text-anchor="middle"
-        font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-        font-size="13" font-weight="400" letter-spacing="8" fill="#a3a3a3">
-    2026
-  </text>
+    <!-- Switzer for the name -->
+    <text y="340" class="name-font ink" font-size="82" letter-spacing="2">Anthony Lupo</text>
+    
+    <!-- IBM Plex Mono for the studio line -->
+    <text y="405" class="studio-font ink" font-size="15" letter-spacing="14" opacity="0.6">Lupo Studios</text>
+    
+    <!-- Minimalist Horizontal Divider -->
+    <line x1="-100" y1="460" x2="100" y2="460" class="ink-line" stroke-dasharray="2 12" opacity="0.4"/>
+  </g>
 </svg>
