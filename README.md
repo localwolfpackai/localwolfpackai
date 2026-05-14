@@ -1,17 +1,5 @@
 <img src="./banner.svg" alt="Lupo Studios" width="100%"/>
 
-Building tools and standards for modern web development.
-
-- [Best Practice Guidelines](https://github.com/localwolfpackai/best-practice-guidelines) — engineering standards, code conventions, and development workflows
-
----
-
-<sub>[@Lupo Studios](https://github.com/Lupo-Studios)</sub>
-<p align="center">
-  <img src="logo.svg" alt="Lupo Studios" width="80" height="70" />
-</p>
-
-<h2 align="center">Anthony Lupo</h2>
 
 <p align="center">
   <a href="https://x.com/humanlup">@humanlup</a>&ensp;&middot;&ensp;<a href="https://instagram.com/_lupo">@_lupo</a>
@@ -54,14 +42,14 @@ Design        ██████░░░░░░░░░░░░░░░░
 **Client Web Projects** &ensp; `freelance`
 <br>Web design and SEO work for small businesses — responsive sites, local search optimization, content strategy. Sales background means I understand what actually converts.
 
+[Best Practice Guidelines](https://github.com/localwolfpackai/best-practice-guidelines)
+
 &nbsp;
 
 ### How I work
 
-| | |
-|---|---|
-| **AI-first, not AI-only** | Claude Code runs in my terminal all day. I write skills, hook into MCP servers, and build real workflows. |
-| **Document everything** | Every project has a README, a session log, tests (becuase...well, I'm not a dev!) and a handoff note. If I can't pick it up cold in a week, it's not done. |
+hard 
+
 
 &nbsp;
 
