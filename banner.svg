@@ -1,63 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" style="background: #fafafa;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" style="background: #ffffff; overflow: hidden;">
   <defs>
     <style>
-      /* Clean, technical font stack */
       .name-font { font-family: 'Switzer', 'Inter', sans-serif; font-weight: 300; font-style: italic; }
       .studio-font { font-family: 'IBM Plex Mono', monospace; font-weight: 500; text-transform: uppercase; }
-      .wash-font { font-family: 'Geist Mono', monospace; font-weight: 800; }
+      .cloud-font { font-family: 'Geist Mono', monospace; font-weight: 800; text-transform: uppercase; }
+      .tech-font { font-family: 'IBM Plex Mono', monospace; font-weight: 400; font-size: 11px; letter-spacing: 2px; }
       
-      .ink { fill: #1a1a1a; }
-      .ink-line { stroke: #1a1a1a; stroke-width: 0.5; opacity: 0.15; }
-      .ghost { fill: #1a1a1a; opacity: 0.04; }
+      .ink { fill: #0a0a0a; }
+      .ink-line { stroke: #0a0a0a; stroke-width: 1; opacity: 0.15; }
+      .grid-axis { stroke: #0a0a0a; stroke-width: 0.5; opacity: 0.08; }
+      .accent { stroke: #0a0a0a; stroke-width: 1.5; }
+      
+      .ring-0 { fill: #0a0a0a; opacity: 0.02; }
+      .ring-1 { fill: #0a0a0a; opacity: 0.04; }
+      .ring-2 { fill: #0a0a0a; opacity: 0.06; }
+      .ring-3 { fill: #0a0a0a; opacity: 0.08; }
     </style>
-    
-    <radialGradient id="wash" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.1"/>
-      <stop offset="90%" stop-color="#1a1a1a" stop-opacity="0"/>
-    </radialGradient>
+
+    <path id="ring-0" d="M 960, -160 a 700,700 0 1,1 0,1400 a 700,700 0 1,1 0,-1400" />
+    <path id="ring-1" d="M 960, -10 a 550,550 0 1,1 0,1100 a 550,550 0 1,1 0,-1100" />
+    <path id="ring-2" d="M 960, 120 a 420,420 0 1,1 0,840 a 420,420 0 1,1 0,-840" />
+    <path id="ring-3" d="M 960, 220 a 320,320 0 1,1 0,640 a 320,320 0 1,1 0,-640" />
   </defs>
 
-  <!-- Background Base -->
-  <rect width="1920" height="1080" fill="#fafafa"/>
+  <rect width="1920" height="1080" fill="#ffffff"/>
 
-  <!-- "STILL HUMAN" - Straight but Staggered (Technical Grid) -->
-  <g font-size="140" class="wash-font ghost" letter-spacing="18">
-    <text x="80" y="200">STILL HUMAN</text>
-    <text x="1100" y="360">STILL HUMAN</text>
-    <text x="350" y="520">STILL HUMAN</text>
-    <text x="1250" y="680">STILL HUMAN</text>
-    <text x="150" y="840">STILL HUMAN</text>
-    <text x="1000" y="1000">STILL HUMAN</text>
+  <g class="grid-axis">
+    <line x1="960" y1="0" x2="960" y2="1080" stroke-dasharray="8 8" />
+    <line x1="0" y1="540" x2="1920" y2="540" stroke-dasharray="8 8" />
+    <circle cx="960" cy="540" r="700" fill="none" class="ink-line" stroke-dasharray="2 12" />
+    <circle cx="960" cy="540" r="550" fill="none" class="ink-line" stroke-dasharray="1 6" />
+    <circle cx="960" cy="540" r="420" fill="none" class="ink-line" stroke-dasharray="4 4" />
+    <circle cx="960" cy="540" r="320" fill="none" class="ink-line" stroke-dasharray="2 4" />
   </g>
 
-  <!-- Depth Wash -->
-  <rect width="1920" height="1080" fill="url(#wash)"/>
+  <text transform="translate(140, 540) rotate(-90)" text-anchor="middle" font-size="140" class="cloud-font ring-0" letter-spacing="40">HUMANLUP</text>
+  <text transform="translate(1780, 540) rotate(90)" text-anchor="middle" font-size="140" class="cloud-font ring-0" letter-spacing="40">LUPO STUDIOS</text>
 
-  <!-- Corner Dotted Accents (Blueprint Style) -->
-  <g class="ink-line" stroke-dasharray="1 15">
-    <!-- Top Left -->
-    <path d="M40 40 H200 M40 40 V150" fill="none" />
-    <!-- Bottom Left -->
-    <path d="M40 1040 H200 M40 1040 V930" fill="none" />
-    <!-- Bottom Right Decor -->
-    <circle cx="1880" cy="1040" r="2" fill="#1a1a1a" stroke="none" opacity="0.2"/>
+  <g transform="translate(960, 540) rotate(15) translate(-960, -540)">
+    <text class="cloud-font ring-0" font-size="80" letter-spacing="18">
+      <textPath href="#ring-0" startOffset="0%">
+        THE MESS IS THE METHOD // LUPO STUDIOS // HUMANLUP // CLAUDE CODE // GEMINI // THE MESS IS THE METHOD // LUPO STUDIOS // HUMANLUP // CLAUDE CODE // GEMINI // THE MESS IS THE METHOD // LUPO STUDIOS // HUMANLUP // CLAUDE CODE // GEMINI // 
+      </textPath>
+    </text>
   </g>
 
-  <!-- CENTERED BRANDING -->
-  <g transform="translate(960, 520)" text-anchor="middle">
+  <g transform="translate(960, 540) rotate(-40) translate(-960, -540)">
+    <text class="cloud-font ring-1" font-size="56" letter-spacing="14">
+      <textPath href="#ring-1" startOffset="0%">
+        HUMANLUP — GEMINI — THE MESS IS THE METHOD — CLAUDE CODE — LUPO STUDIOS — HUMANLUP — GEMINI — THE MESS IS THE METHOD — CLAUDE CODE — LUPO STUDIOS — HUMANLUP — GEMINI — THE MESS IS THE METHOD — CLAUDE CODE — LUPO STUDIOS — 
+      </textPath>
+    </text>
+  </g>
+
+  <g transform="translate(960, 540) rotate(75) translate(-960, -540)">
+    <text class="cloud-font ring-2" font-size="40" letter-spacing="10">
+      <textPath href="#ring-2" startOffset="0%">
+        CLAUDE CODE • LUPO STUDIOS • HUMANLUP • THE MESS IS THE METHOD • GEMINI • CLAUDE CODE • LUPO STUDIOS • HUMANLUP • THE MESS IS THE METHOD • GEMINI • CLAUDE CODE • LUPO STUDIOS • HUMANLUP • THE MESS IS THE METHOD • GEMINI • 
+      </textPath>
+    </text>
+  </g>
+
+  <g transform="translate(960, 540) rotate(-15) translate(-960, -540)">
+    <text class="cloud-font ring-3" font-size="28" letter-spacing="8">
+      <textPath href="#ring-3" startOffset="0%">
+        GEMINI // HUMANLUP // THE MESS IS THE METHOD // LUPO STUDIOS // CLAUDE CODE // GEMINI // HUMANLUP // THE MESS IS THE METHOD // LUPO STUDIOS // CLAUDE CODE // GEMINI // HUMANLUP // THE MESS IS THE METHOD // LUPO STUDIOS // CLAUDE CODE // 
+      </textPath>
+    </text>
+  </g>
+
+  <g class="tech-font ink" opacity="0.5">
+    <text x="60" y="60">[ SYS.01 // LUPO ARCHITECTURE ]</text>
+    <text x="1860" y="60" text-anchor="end">STATUS: HUMANLUP_ACTIVE</text>
+    <text x="60" y="1030">LOC: 32.7157° N, 117.1611° W</text>
     
-    <!-- Geometric Logo (centered mathematically) -->
-    <g transform="translate(-250, -220)">
-       <path d="M240 0H330V350H500V440H247.06V175L102.52 440H0L240 0Z" class="ink"/>
+    <path d="M 60,80 h 40 M 1860,80 h -40 M 60,1000 h 40 M 1860,1000 h -40" class="ink-line" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(960, 540)" text-anchor="middle">
+    <g transform="scale(1.2)">
+      <path d="M240 0H330V350H500V440H247.06V175L102.52 440H0L240 0Z" class="ink" transform="translate(-250, -220)"/>
     </g>
+  </g>
 
-    <!-- Switzer for the name -->
-    <text y="340" class="name-font ink" font-size="82" letter-spacing="2">Anthony Lupo</text>
+  <g transform="translate(1860, 940)" text-anchor="end">
+    <line x1="0" y1="0" x2="-300" y2="0" class="ink-line" stroke-dasharray="2 4" stroke-width="1.5" />
     
-    <!-- IBM Plex Mono for the studio line -->
-    <text y="405" class="studio-font ink" font-size="15" letter-spacing="14" opacity="0.6">Lupo Studios</text>
+    <text y="45" class="name-font ink" font-size="52" letter-spacing="1">Anthony Lupo</text>
     
-    <!-- Minimalist Horizontal Divider -->
-    <line x1="-100" y1="460" x2="100" y2="460" class="ink-line" stroke-dasharray="2 12" opacity="0.4"/>
+    <text y="80" class="studio-font ink" font-size="14" letter-spacing="14" opacity="0.9">Lupo Studios</text>
+    
+    <text y="105" class="tech-font ink" opacity="0.5">CREATIVE TECHNOLOGIST // V. 2.0.27</text>
   </g>
 </svg>
