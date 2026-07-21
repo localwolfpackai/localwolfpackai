@@ -1,58 +1,25 @@
-<img src="./banner.svg" alt="Lupo Studios" width="100%"/>
-
-
 <p align="center">
-  <a href="https://x.com/humanlup">@humanlup</a>&ensp;&middot;&ensp;<a href="https://instagram.com/_lupo">@_lupo</a>
+  <img src="logo.svg" alt="Anthony Lupo AL logo" width="56" height="56" />
 </p>
 
-&nbsp;
+<h1 align="center">Anthony Lupo</h1>
 
-10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to experiment, ship real work (web apps, brand systems, client projects, custom workflows) and create to feed a passion. Not a traditional developer, but I try and build like one.
 
-&nbsp;
+<p align="left">
+  My AI operating system and infinite learning canvas.
+</p>
 
-### Where my time goes
 
-```text
-Claude Code   ████████████████████████████░░░░░░░░░░░░░░  55%   workhorse
-Frontend      ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18%   Next.js, TypeScript
-Gemini CLI    ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15%   second opinion
-Design        ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12%   Figma, CSS
-```
+10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to experiment, ship real work (web apps, brand systems, client projects, custom workflows) and create to feed a passion. 
+
+
+Not a traditional developer, but I try and build like one!
 
 &nbsp;
 
 ### Toolbelt
 
-`Claude Code` &ensp; `Gemini CLI` &ensp; `TypeScript` &ensp; `Next.js` &ensp; `MCP` &ensp; `iTerm2`
+`Claude Code` &ensp; `Codex` &ensp; `TypeScript` &ensp; `Next.js` &ensp; `MCP` &ensp; `iTerm2` &ensp; `Codex`
 
 &nbsp;
 
-### Featured work
-
-**Claude Code Skills Library** &ensp; `ai workflow`
-<br>Custom skill system for Claude Code — reusable prompt-driven workflows for code review, design audits, performance checks, and content repurposing. Built through daily use, refined by real projects.
-
-**Lupo Studios Brand System** &ensp; `design system`
-<br>Full brand identity built through AI conversation — design tokens, OKLCH color system, typography scale, Tailwind v4 stylesheet, logo generation pipeline. One source of truth across every project.
-
-**MCP Server Integrations** &ensp; `infrastructure`
-<br>Connected Claude Code to Figma, GitHub, Google Calendar, and file systems through MCP. Practical integrations that let AI agents read real context instead of guessing.
-
-**Client Web Projects** &ensp; `freelance`
-<br>Web design and SEO work for small businesses — responsive sites, local search optimization, content strategy. Sales background means I understand what actually converts.
-
-[Best Practice Guidelines](https://github.com/localwolfpackai/best-practice-guidelines)
-
-&nbsp;
-
-### How I work
-
-hard 
-
-
-&nbsp;
-
----
-
-<sub>**Lupo Studios** — Still Human.</sub>
