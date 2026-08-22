@@ -4,33 +4,26 @@
 
 &nbsp;
 
-## Business operator and AI-native builder
-- 10 years in tech sales
+## Business operator and AI-builder
+- 10 years in tech sales (ex Salesforce, Samsara, Yext, Intuit)
 - self-taught builder since 2023
-- I use AI tools daily to experiment, ship real work and create to feed a passion. 
+- I use AI tools daily to experiment, ship real work and create to feed a passion.
+- Currently running Humanlup
 
+  
 &nbsp;
 
 ### Where my time goes
+1. My wife
+2. My business 
+3. Claude Code 
+4. Codex
 
-
-&nbsp;
-
-#### Featured work
-
-**Claude Code Skills Library** &ensp; `ai workflow`
-<br>Custom skill system for Claude Code — reusable prompt-driven workflows for code review, design audits, performance checks, and content repurposing. Built through daily use, refined by real projects.
-
-
-10 years in tech sales. Self-taught builder since 2023. I use AI tools daily to experiment, ship real work (web apps, brand systems, client projects, custom workflows) and create to feed a passion. 
-
-
-Not a traditional developer, but I try and build like one!
+Each equally requires strict token management. 
 
 &nbsp;
 
-**There's a lot of us who approach things with poetry before logic. - Sean Brown**
-
+The mess is the method 🌀
 ---
 
 <sub>**Lupo**</sub>
